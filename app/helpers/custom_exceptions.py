@@ -1,0 +1,2 @@
+class OpenAIChatException(Exception):
+    pass
