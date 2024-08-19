@@ -18,4 +18,6 @@ async def evaluate_sentiment_service(user_wants_changes: bool):
         response_format=UserEvaluationResult,
     )
 
-    logger.info("User evaluation response", response=response.choices[0].message.parsed, user_wants_changes=user_wants_changes)
+    logger.info(
+        "User evaluation response", response=response.choices[0].message.parsed, user_wants_changes=user_wants_changes
+    )

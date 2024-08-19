@@ -18,7 +18,7 @@ openai_client = OpenAIChat()
         "properties": {
             "user_wants_to_have_changes": {
                 "type": "boolean",
-                "description": ("The user's decision about having major changes of their current job role."),
+                "description": "The user's decision about having major changes of their current job role.",
             },
         },
         "required": ["user_wants_to_have_changes"],
